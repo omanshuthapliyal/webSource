@@ -1,3 +1,95 @@
-baseURL = "http://example.org/"
+baseURL = "https://omanshuthapliyal.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Omanshu Thapliyal"
+theme = "avicenna"
+
+[params]
+  subtitle = "PhD student"
+  interests="Statistical methods in estimation & control"
+  cv_name= "OmanshuThapliyal_CV.pdf"
+  blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "Purdue University,"
+  position = "PhD Student"
+  contact = "omanshu[at]purdue.edu"
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/omanshuthapliyal"
+
+[[params.social]]
+name = "Linkedin"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/omanshu/"
+
+[[params.social]]
+name = "Facebook"
+icon = "facebook"
+url = "https://www.facebook.com/omanshu"
+
+[[params.introduction.paragraph]]
+  text="""Hello!
+
+I am a PhD student working with the [Flight Dynamics & Control/Hybrid Systems Lab](https://sites.google.com/view/fdchsl/home). 
+I am interested in statistical methods in estimation & control. 
+
+Prior to this, I worked with the [MathWorks Inc.](https://www.mathworks.com) for a little less than a year at Natick, Massachusetts.
+I did my MS in Aeronautics & Astronautics Engineering from Purdue University, and BTech in Aerospace Engineering from [IIT Kanpur](https://www.iitk.ac.in/aero/).
+   """
+
+[[params.projects]]
+
+ [[params.projects.project]]
+		name = ""
+		description  = ""
+		project_page = ""
+		code_link = ""
+		blog_link = ""
+
+[[params.publications]]
+  year="Journal Papers"
+
+  [[params.publications.paper]]
+    name = "Kalman filtering with state-dependent packet losses"
+    authors = "*O Thapliyal, JS Nandiganahalli, I Hwang*"
+    dest  = "IET Control Theory & Applications"
+    link = "https://doi.org/10.1049/iet-cta.2018.5425"
+    code_link = ""
+    blog_link = ""
+
+  [[params.publications.paper]]
+    name = "Distributed state estimation for a stochastic linear hybrid system over a sensor network"
+    authors = "*R Deshmukh, O Thapliyal, C Kwon, I Hwang*"
+    dest  = "IET Control Theory & Applications"
+    link = "https://doi.org/10.1049/iet-cta.2017.1208"
+
+
+[[params.publications]]
+  year="Conference Papers"
+
+  [[params.publications.paper]]
+		name = "Predicting Mode Confusion Through Mixed Integer Linear Programming"
+		authors = "*V Sivaramakrishnan, O Thapliyal, A Vinod, M Oishi, I Hwang*"
+		dest  = "IEEE 56th Annual Conference on Decision and Control, 2019"
+		link = "https://cdc2019.ieeecss.org/"
+
+
+  [[params.publications.paper]]
+		name = "Optimal state estimation for LTI systems with imperfect observations"
+		authors = "*O Thapliyal, JS Nandiganahalli, I Hwang*"
+		dest  = "IEEE 56th Annual Conference on Decision and Control, 2017"
+		link = "https://doi.org/10.1109/CDC.2017.8264065"
+
+
+[[params.hobbies.paragraph]]
+   text="""I like to read history books in my spare time. My favourite author is the British historian Lawrence James. At the moment I am reading *[The Story of Music: From Babylon to the Beatles: How Music Has Shaped Civilization](https://www.amazon.com/Story-Music-Babylon-Beatles-Civilization/dp/1605986704/)* and *[The Rise and Fall of Classical Greece](https://www.amazon.com/Classical-Greece-Princeton-History-Ancient/dp/0691173141)*.
+
+
+I like playing board games and Dungeons & Dragons with my party. I am currently trying to level up my Half - Elf Bard.
+
+I love live music and try to attend as many concerts as possible. I am especially into classic progressive rock. I also play a little myself. Friends often find me playing my guitar or ukulele before I am forcefully shut down. I am trying to teach myself to play the harmonica these days.
+
+I also play some video games on my Switch & PlayStation from time to time. I am struggling with the Legend of Zelda: BoTW at the moment. If I ***really*** want to waste a day, I fire up a game of Sid Meier's Civilization V/VI.
+"""

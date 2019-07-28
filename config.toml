@@ -7,7 +7,7 @@ theme = "avicenna"
   subtitle = "PhD student"
   interests="Statistical methods in estimation & control"
   cv_name= "OmanshuThapliyal_CV.pdf"
-  blog="http://myblog.edu"
+  blog="https://omanshuthapliyal.github.io/blog"
 
 [[params.affilation]]
   name = "Purdue University,"

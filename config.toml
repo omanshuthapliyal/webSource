@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "Omanshu Thapliyal"
 theme = "avicenna"
 
+# Your Google analytics code.
+googleAnalytics = "UA-144848923-1"
+# Your Disqus sortname.
+disqusShortname = "https-omanshuthapliyal-github-io-blog"
+
 [params]
   subtitle = "PhD student"
   interests="Statistical methods in estimation & control"
@@ -33,6 +38,7 @@ url = "https://www.facebook.com/omanshu"
   text="""Hello!
 
 I am a PhD student working with the [Flight Dynamics & Control/Hybrid Systems Lab](https://sites.google.com/view/fdchsl/home). 
+I am being advised by [Prof. Inseok Hwang](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1403) and [Prof. Arthur Frazho](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1339).
 I am interested in statistical methods in estimation & control. 
 
 Prior to this, I worked with the [MathWorks Inc.](https://www.mathworks.com) for a little less than a year at Natick, Massachusetts.
@@ -72,7 +78,7 @@ I did my MS in Aeronautics & Astronautics Engineering from Purdue University, an
   [[params.publications.paper]]
 		name = "Predicting Mode Confusion Through Mixed Integer Linear Programming"
 		authors = "*V Sivaramakrishnan, O Thapliyal, A Vinod, M Oishi, I Hwang*"
-		dest  = "IEEE 56th Annual Conference on Decision and Control, 2019"
+		dest  = "IEEE 58th Annual Conference on Decision and Control, 2019"
 		link = "https://cdc2019.ieeecss.org/"
 
 

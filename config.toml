@@ -47,12 +47,28 @@ I did my MS in Aeronautics & Astronautics Engineering from Purdue University, an
 
 [[params.projects]]
 
- [[params.projects.project]]
-		name = ""
-		description  = ""
+[[params.projects.project]]
+		name = "Identifying mode confusion in aircraft-pilot interactions"
+		description = "Most human-machine interaction systems suffer from the dreaded failure of *automation surprise*. This project aims at predicting automation surprises in safety critical systems such as aircraft-autopilot system; and then proposing possible resolution methods to get rid of the mode mismatch events thus identified. | *Collaborators :* [*Prof. Meeko Oishi*](http://www.unm.edu/~oishi/)*,* [*Vignesh Sivaramakrishnan*](https://hscl.unm.edu/people/vignesh-sivaramakrishnan/)"
 		project_page = ""
 		code_link = ""
 		blog_link = ""
+
+[[params.projects.project]]
+
+		name = "State estimation subject to  packet losses"
+		description  = "The project aimed at studying state estimation subject to random packet dropouts. Addressing different  ways to incorporate this randomness led to two different subproblems: (i) *packet losses are Markovian in nature:* such packet losses are common in communication channels (such as ethernet). (ii) *packet losses that occur within specific regions,* where the regions are themselves distributed according to known priors (such packet droupouts model radio jammers and adversarial attacks causing packet losses). Systematic inclusion of known information about packet losses (Markovian, or state dependent distribution of jammers, etc.) leads to an improved accuracy in the baseline Kalman filter, with comparable computation complexity. | *Collaborator :* [*J. S. Nandiganahalli*](https://sites.google.com/view/fdchsl/members/alumni/ph-d/jayaprakash-suraj-nandiganahalli?authuser=0)"
+		project_page = "https://docs.lib.purdue.edu/dissertations/AAI10684254/"
+		code_link = ""
+		blog_link = ""
+
+[[params.projects.project]]
+		name = "Consensus based hybrid state estiamtion for networked control systems (NCS)"
+		description = "This project aimed at extending the idea of consensus based state estimation (such as consensus-Kalman filters) to hybrid state estimators (such as IMM, GPB-I, GPB-II, etc.). The key idea is to allow consensus at each agent of the NCS and include it in a manner that allows for time-changing topologies of the connecting network. The state estimator developed outperforms all consensus based estimators for hybrid systems (as of 2018). | *Collaborators :* [*Raj Deshmukh*](https://sites.google.com/view/fdchsl/members/ph-d-students/raj-deshmukh?authuser=0)*,* [*Cheolhyeon Kwon*](https://sites.google.com/view/fdchsl/members/alumni/post-doc/cheolhyeon-kwon?authuser=0)"
+		project_page = "https://doi.org/10.1049/iet-cta.2017.1208"
+		code_link = ""
+		blog_link = ""
+
 
 [[params.publications]]
   year="Journal Papers"

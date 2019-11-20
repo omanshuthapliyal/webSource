@@ -97,6 +97,12 @@ Systematic inclusion of known information about packet losses (Markovian, or sta
   year="Conference Papers"
 
   [[params.publications.paper]]
+		name = "Learning based Cyberattack Design for Partially-known Supervisory Control Systems, [submitted]"
+		authors = "*O Thapliyal, I Hwang*"
+		dest  = "21st IFAC World Congress, 2020"
+		link = "https://www.ifac2020.org/"
+
+  [[params.publications.paper]]
 		name = "Predicting Mode Confusion Through Mixed Integer Linear Programming"
 		authors = "*V Sivaramakrishnan, O Thapliyal, A Vinod, M Oishi, I Hwang*"
 		dest  = "IEEE 58th Annual Conference on Decision and Control, 2019"

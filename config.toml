@@ -46,6 +46,15 @@ I did my MS in Aeronautics & Astronautics Engineering from Purdue University, an
 
 [[params.projects]]
 
+
+[[params.projects.project]]
+		name = "Data-Driven Reachability"
+		description = """We present a data-driven method for computing reachable sets for unknown nonlinear dynamical systems using a Koopman operator based approach. We find mixed-monotone decompositions for a class of Koopman lifted dynamics. The mixed-monotone system can be further embedded to a higher-dimensional dynamical model which is propagated in time deterministically. This allows us to find over-approximations of forward reachable sets that do not suffer from the curse of dimensionality. The proposed method can account for unknown nonlinear dynamics and allow a calculation of the conservative approximations of the reachable sets to a prefixed degree of accuracy in a computationally inexpensive manner. We demonstrate the efficacy of the proposed algorithm using an illustrative example with an unknown, nonlinear dynamical model, and compare it to CORA, a well-known existing method."""
+		project_page = ""
+		code_link = ""
+		blog_link = ""
+
+
 [[params.projects.project]]
 		name = "Identifying mode confusion in aircraft-pilot interactions"
 		description = """Most human-machine interaction systems suffer from the dreaded failure of *automation surprise*. This project aims at predicting automation surprises in safety critical systems such as aircraft-autopilot system; and then proposing possible resolution methods to get rid of the mode mismatch events thus identified. | *Collaborators :* [*Prof. Meeko Oishi*](http://www.unm.edu/~oishi/)*,* [*Vignesh Sivaramakrishnan*](https://hscl.unm.edu/people/vignesh-sivaramakrishnan/)"""
@@ -91,16 +100,35 @@ Systematic inclusion of known information about packet losses (Markovian, or sta
     authors = "*R Deshmukh, O Thapliyal, C Kwon, I Hwang*"
     dest  = "IET Control Theory & Applications"
     link = "https://doi.org/10.1049/iet-cta.2017.1208"
-
+  
+  [[params.publications.paper]]
+    name = "Approximate Reachability for Koopman Systems Using Mixed Monotonicity"
+    authors = "*O Thapliyal, I Hwang*"
+    dest  = "IEEE Access"
+    link = "https://ieeexplore.ieee.org/abstract/document/9844723"
+    code_link = ""
+    blog_link = ""
 
 [[params.publications]]
   year="Conference Papers"
 
   [[params.publications.paper]]
-		name = "Learning based Cyberattack Design for Partially-known Supervisory Control Systems, [submitted]"
+		name = "Path Planning for a Network of Robots with Distributed Multi-Objective Linear Programming"
 		authors = "*O Thapliyal, I Hwang*"
-		dest  = "21st IFAC World Congress, 2020"
-		link = "https://www.ifac2020.org/"
+		dest  = "American Control Conference, 2021"
+		link = "https://ieeexplore.ieee.org/abstract/document/9482869"
+
+  [[params.publications.paper]]
+		name = "Distributed Fast-Tracking Alternating Direction Method of Multipliers (ADMM) Algorithm with Optimal Convergence Rate"
+		authors = "*S Shethia, A Gupta, O Thapliyal, I Hwang*"
+		dest  = "IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021"
+		link = "https://ieeexplore.ieee.org/abstract/document/9658615"
+
+  [[params.publications.paper]]
+		name = "Learning Based Cyberattack Design and Defense for Supervisory Control Systems"
+		authors = "*O Thapliyal, I Hwang*"
+		dest  = "European Control Conference, 2021"
+		link = "https://ieeexplore.ieee.org/abstract/document/9655174"
 
   [[params.publications.paper]]
 		name = "Predicting Mode Confusion Through Mixed Integer Linear Programming"

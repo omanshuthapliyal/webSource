@@ -9,15 +9,15 @@ googleAnalytics = "UA-144848923-1"
 disqusShortname = "https-omanshuthapliyal-github-io-blog"
 
 [params]
-  subtitle = "PhD student"
+  subtitle = "Urban Air Mobility (UAM) Researcher"
   interests="Statistical methods in estimation & control"
   cv_name= "OmanshuThapliyal_CV.pdf"
   blog="https://omanshuthapliyal.github.io/blog"
 
 [[params.affilation]]
-  name = "Purdue University,"
-  position = "PhD Student"
-  contact = "omanshu[at]purdue.edu"
+  name = "Hitachi America Ltd.,"
+  position = "Urban Air Mobility (UAM) Researcher"
+  contact = "[first].[last]@hal.hitachi.com"
 
 [[params.social]]
 name = "Github"
@@ -36,11 +36,12 @@ url = "https://www.facebook.com/omanshu"
 
 [[params.introduction.paragraph]]
   text="""Hello!
+I am an Urban Air Mobility (UAM) Researcher at Hitachi America Ltd., working on problems relating to Safe Control Synthesis and Data-Driven Control.
 
-I am a PhD student in Aeronautics & Astronautics Engineering, affiliated with the [Flight Dynamics & Control/Hybrid Systems Lab](https://sites.google.com/view/fdchsl/home). 
-I am being advised by [Prof. Inseok Hwang](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1403) and [Prof. Arthur Frazho](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1339).
+I hold a PhD student in Aeronautics & Astronautics Engineering, from Purdue University, West Lafayette with a concentration in Autonomy & Controls. 
+I was advised by [Prof. Inseok Hwang](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1403) and [Prof. Arthur Frazho](https://engineering.purdue.edu/AAE/people/ptProfile?resource_id=1339).
 
-Prior to this, I worked with the [MathWorks Inc.](https://www.mathworks.com) for a little less than a year at Natick, Massachusetts.
+Prior to that, I worked with the [MathWorks Inc.](https://www.mathworks.com) for a little less than a year at Natick, Massachusetts.
 I did my MS in Aeronautics & Astronautics Engineering from Purdue University, and BTech in Aerospace Engineering from [IIT Kanpur](https://www.iitk.ac.in/aero/).
    """
 
